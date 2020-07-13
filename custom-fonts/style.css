@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'notificationfeed';
+  src:  url('fonts/notificationfeed.eot?23t8kh');
+  src:  url('fonts/notificationfeed.eot?23t8kh#iefix') format('embedded-opentype'),
+    url('fonts/notificationfeed.ttf?23t8kh') format('truetype'),
+    url('fonts/notificationfeed.woff?23t8kh') format('woff'),
+    url('fonts/notificationfeed.svg?23t8kh#notificationfeed') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="notificationfeed-"], [class*=" notificationfeed-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'notificationfeed' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.notificationfeed-settingicon:before {
+  content: "\e91f";
+}
+.notificationfeed-setting:before {
+  content: "\e91e";
+}
+.notificationfeed-email:before {
+  content: "\e919";
+}
+.notificationfeed-snooze:before {
+  content: "\e91d";
+}
+.notificationfeed-reverse:before {
+  content: "\e900";
+}
+.notificationfeed-date:before {
+  content: "\e901";
+}
+.notificationfeed-refresh:before {
+  content: "\e902";
+}
+.notificationfeed-group:before {
+  content: "\e903";
+}
+.notificationfeed-logout:before {
+  content: "\e904";
+}
+.notificationfeed-upload:before {
+  content: "\e905";
+}
+.notificationfeed-arrowDown:before {
+  content: "\e906";
+}
+.notificationfeed-search:before {
+  content: "\e907";
+}
+.notificationfeed-logo:before {
+  content: "\e908";
+}
+.notificationfeed-json:before {
+  content: "\e909";
+}
+.notificationfeed-xml:before {
+  content: "\e90a";
+}
+.notificationfeed-notification:before {
+  content: "\e90b";
+}
+.notificationfeed-danger:before {
+  content: "\e90c";
+}
+.notificationfeed-success:before {
+  content: "\e90d";
+}
+.notificationfeed-unavailable:before {
+  content: "\e90e";
+}
+.notificationfeed-copy:before {
+  content: "\e90f";
+}
+.notificationfeed-cancel:before {
+  content: "\e910";
+}
+.notificationfeed-happy:before {
+  content: "\e911";
+}
+.notificationfeed-sad:before {
+  content: "\e912";
+}
+.notificationfeed-arrowRight:before {
+  content: "\e913";
+}
+.notificationfeed-key:before {
+  content: "\e914";
+}
+.notificationfeed-user:before {
+  content: "\e915";
+}
+.notificationfeed-kabaddi:before {
+  content: "\e916";
+}
+.notificationfeed-hockey:before {
+  content: "\e917";
+}
+.notificationfeed-cricket:before {
+  content: "\e918";
+}
+.notificationfeed-badminton:before {
+  content: "\e91a";
+}
+.notificationfeed-tennis:before {
+  content: "\e91b";
+}
+.notificationfeed-football:before {
+  content: "\e91c";
+}

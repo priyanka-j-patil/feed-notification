@@ -1,0 +1,57 @@
+
+.si-emailtbl{
+    color:Black;
+    background-color:$white
+    ;border-color:#999999;
+    border-width:0px;
+    border-style:Solid;
+    width:100%;
+    .si-head{
+        color:White;
+        background-color:$black;
+        font-weight:bold;
+        & th{
+            padding: 10px 0px;
+            font-family:$bold_font-family_primary;
+            font-weight:$bold_font-weight;
+        }
+    }  
+    .si-body{
+      & td{
+          padding: 10px 0;
+          span{
+              display: block;
+              padding-bottom: 5px;
+              font-family: $regular_font-family_primary;
+              font-weight: $regular_font-weight;
+          }
+      }
+    }
+    .si-sport{
+        width:5%;
+    } 
+    .si-match{
+        width:15%;
+    } 
+    .si-id{
+      width:8%;
+    } 
+    .si-feed{
+        width:13%;
+    } 
+    .si-file{
+        
+    width: 20%;
+
+    } 
+    .si-error{
+        width: 17%;
+    } 
+    .si-client{
+        width: 17%;
+    } 
+ .si-level {
+      
+        width: 5%;
+    }
+}

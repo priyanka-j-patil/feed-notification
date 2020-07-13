@@ -1,0 +1,37 @@
+/* Icons Start Here */
+@each $name , $value in $icons{    
+    @if map-has-key($icons , $name ) {
+        .si-#{$name}{
+            &::after{
+                content : $value !important; 
+            }
+        }
+    } @else{
+        @error "The key #{$name} is not in the map ’$icons’";
+    }
+}
+/* Icons Ends Here */
+
+/* Alert Start Here */
+@each $name , $value in $alert {
+    @if map-has-key($alert , $name ){
+        .si-#{$name}{
+            background-color: $value;
+            @include border-radius(50%);
+            &::after{
+                font-size: 10px !important;
+                border: 1px solid $value;
+                color: $value !important;
+                @include flexbox;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    } @else{
+        @error "The key #{$name} is not in the map ’$alert’";
+    }    
+}
+/* Alert Ends Here */
+
+
+

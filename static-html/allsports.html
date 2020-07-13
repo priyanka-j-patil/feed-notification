@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.min.js"></script>
+    <script src="../js/main.js"></script>
+</head>
+
+<body>
+    <div class="si-main">
+        <div class="si-wrapper">
+            <div class="si-page-bg">
+                <div class="si-main__containerFluid">
+                    <div class="si-containerBox">
+                        <div class="si-sideSection">
+                            <div class="si-iconBox">
+                                <span class="si-icon si-dates"></span>
+                                <div class="si-tooltipContianer">
+                                    <div class="si-tooltip">
+                                        <div class="si-drpDwn">
+                                            <div class="si-drpDwn__value">
+                                                <span>Select Sport</span>
+                                            </div>
+                                            <div class="si-drpDwn__list">
+                                                <ul>
+                                                    <li>
+                                                        <span>Yes</span>
+                                                    </li>
+                                                    <li>
+                                                        <span>No</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="si-input">
+                                            <input type="text" class="hasDatepicker" id="startdate"
+                                                placeholder="From Date">
+                                        </div>
+                                        <div class="si-input">
+                                            <input type="text" class="hasDatepicker" id="enddate" placeholder="To Date">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="si-iconBox ">
+                                <span class="si-icon si-refresh"></span>
+                                <div class="si-tooltipContianer">
+                                    <div class="si-tooltip">
+                                        <div class="si-radioContainer">
+                                            <div class="si-radioBox">
+                                                <input type="radio" id="r1" name="type" checked="">
+                                                <label for="r1">Delivery</label>
+                                            </div>
+                                            <div class="si-radioBox">
+                                                <input type="radio" id="r2" name="type" checked="">
+                                                <label for="r2">Offline</label>
+                                            </div>
+                                        </div>
+                                        <div class="si-selectionBox">
+                                            <div class="si-selectionLeft">
+                                                <span>Uploading Service</span>
+                                            </div>
+                                            <div class="si-selectionRight">
+                                                <div class="si-drpDwn">
+                                                    <div class="si-drpDwn__value">
+                                                        <span>Select Sport</span>
+                                                    </div>
+                                                    <div class="si-drpDwn__list">
+                                                        <ul>
+                                                            <li>
+                                                                <span>Yes</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>No</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="si-btn">
+                                            <span>Restart Service</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="si-iconBox">
+                                <span class="si-icon si-group"></span>
+                            </div>
+                            <div class="si-logoBox">
+                                <span class="si-icon si-logo"></span>
+                                <span class="si-text">Feed Monitoring Dashboard</span>
+                            </div>
+                            <div class="si-logOut">
+                                <span class="si-text">Logout</span>
+                                <span class="si-icon si-power"></span>
+                            </div>
+                        </div>
+                        <div class="si-mainSection">
+                            <div class="si-mainSectionRight">
+                                <div class="si-header">
+                                    <div class="si-tabHead">
+                                        <div class="si-left">
+                                            <span class="si-text">Match 13</span>
+                                            <span class="si-teams">KXIP vs DC</span>
+                                            <span class="si-year">IPL,2019</span>
+                                            <span class="si-color">(GSAJSB0054851)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="si-card__container si-allSports">
+                                    <div class="si-card si-cricket">
+                                        <div class="si-card__box">
+                                            <div class="si-card__top">
+                                                <span class="si-icon"></span>
+                                                <span>cricket</span>
+                                            </div>
+                                            <div class="si-card__bottom">
+                                                <span class="si-successBox" style="width: 70%;">7</span>
+                                                <span class="si-warningBox" style="width: 20%;">2</span>
+                                                <span class="si-errorBox" style="width: 10%;">1</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="si-card si-football">
+                                        <div class="si-card__box">
+                                            <div class="si-card__top">
+                                                <span class="si-icon"></span>
+                                                <span>Football</span>
+                                            </div>
+                                            <div class="si-card__bottom">
+                                                <span class="si-successBox" style="width: 70%;">7</span>
+                                                <span class="si-warningBox" style="width: 20%;">2</span>
+                                                <span class="si-errorBox" style="width: 10%;">1</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="si-card si-kabaddi">
+                                        <div class="si-card__box">
+                                            <div class="si-card__top">
+                                                <span class="si-icon"></span>
+                                                <span>Kabaddi</span>
+                                            </div>
+                                            <div class="si-card__bottom">
+                                                <span class="si-successBox" style="width: 70%;">7</span>
+                                                <span class="si-warningBox" style="width: 20%;">2</span>
+                                                <span class="si-errorBox" style="width: 10%;">1</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="si-card si-badminton">
+                                        <div class="si-card__box">
+                                            <div class="si-card__top">
+                                                <span class="si-icon"></span>
+                                                <span>badminton</span>
+                                            </div>
+                                            <div class="si-card__bottom">
+                                                <span class="si-successBox" style="width: 70%;">7</span>
+                                                <span class="si-warningBox" style="width: 20%;">2</span>
+                                                <span class="si-errorBox" style="width: 10%;">1</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="si-card si-tennis">
+                                        <div class="si-card__box">
+                                            <div class="si-card__top">
+                                                <span class="si-icon"></span>
+                                                <span>Tennis</span>
+                                            </div>
+                                            <div class="si-card__bottom">
+                                                <span class="si-successBox" style="width: 70%;">7</span>
+                                                <span class="si-warningBox" style="width: 20%;">2</span>
+                                                <span class="si-errorBox" style="width: 10%;">1</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="si-card si-hockey">
+                                        <div class="si-card__box">
+                                            <div class="si-card__top">
+                                                <span class="si-icon"></span>
+                                                <span>hockey</span>
+                                            </div>
+                                            <div class="si-card__bottom">
+                                                <span class="si-successBox" style="width: 70%;">7</span>
+                                                <span class="si-warningBox" style="width: 20%;">2</span>
+                                                <span class="si-errorBox" style="width: 10%;">1</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+.si-submitPopup{
+    max-width: 463px !important;
+    height: calc(100vh - 474px) !important;
+    @include border-radius(5px);
+
+
+        .si-popup-modal-bg {
+            padding: 15px;
+        }
+
+
+        .si-popup-body {
+          .si-head{
+              font-family:$bold_font-family_primary;
+              font-weight: $bold_font-weight ;
+              display: block;
+              margin-top: 25px;
+              text-align: center;
+            font-size: 19px;
+
+          }
+          .si-ok{
+            font-family:$bold_font-family_primary;
+            font-weight: $bold_font-weight ;
+            margin: auto;
+            background: $client-primary-color;
+            color: $white;
+            width: 100px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            @include border-radius(10px);
+            cursor: pointer;
+            margin-top: 30px;
+          }
+        }
+   
+} 

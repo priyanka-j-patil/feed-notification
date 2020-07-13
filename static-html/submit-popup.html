@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.min.js"></script>
+</head>
+
+<body>
+    <div class="si-main">
+      
+    </div>
+ 
+    <div class="si-popup active">
+        <div class="si-popup-modal si-submitPopup si-animated">
+            <div class="si-popup-modal-bg">
+                <div class="si-popup-head">
+                    <div class="si-icon si-cancel"></div>
+                </div>
+                <div class="si-popup-body">
+                   <div>
+                       <span  class="si-head">Do you want to save the changes you have submitted?</span>
+                       <div class="si-ok"><span>OK</span></div>
+                   </div> 
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+        var swiper = new Swiper('.swiper-container', {
+            direction: 'vertical',
+            slidesPerView: 'auto',
+            freeMode: true,
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+            mousewheel: true,
+        });
+    </script>
+</body>
+
+</html>
