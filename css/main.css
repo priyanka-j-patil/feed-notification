@@ -6091,7 +6091,7 @@ _:-ms-fullscreen,
   align-items: center;
   justify-content: center;
   margin-right: 240px;
-  margin-left: -240px;
+  margin-left: -296px;
   /* @media screen and (max-width: $media-desktop-min) {
       margin: 0 -70px;
   } */
@@ -6297,7 +6297,7 @@ _:-ms-fullscreen,
 }
 .si-header.si-clientError .si-selectClineBox {
   position: absolute;
-  right: 80px;
+  right: 50px;
   top: 30px;
   padding: 0px 10px;
 }
@@ -6337,7 +6337,9 @@ _:-ms-fullscreen,
   flex: 1;
 }
 .si-header.si-clientError .si-coverset {
-  position: relative;
+  top: 26px;
+  right: 20px;
+  position: absolute;
   width: 25px;
   height: 25px;
   cursor: pointer;
@@ -6345,7 +6347,6 @@ _:-ms-fullscreen,
 }
 .si-header.si-clientError .si-coverset .si-setting {
   position: absolute;
-  top: 26px;
 }
 .si-header.si-clientError .si-coverset .si-setting:hover:after {
   content: attr(data-tooltip);
@@ -6368,6 +6369,19 @@ _:-ms-fullscreen,
   position: absolute;
   font-weight: bold;
   font-size: 27px;
+}
+.si-header.si-clientError .si-mstatus {
+  position: absolute;
+  right: 26%;
+  top: 61px;
+  padding: 0px 10px;
+  text-align: center;
+  word-break: break-all;
+  width: 15%;
+  font-size: 14px;
+  font-family: "FutuBd", sans-serif;
+  font-weight: normal;
+  color: #5f7eeb;
 }
 
 .si-containerBox {

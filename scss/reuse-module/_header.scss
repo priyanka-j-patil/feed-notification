@@ -378,7 +378,8 @@
                     align-items: center;
                     justify-content: center;
                     margin-right: 240px;
-                    margin-left: -240px;
+                    // margin-left: -240px;
+                    margin-left: -296px;
                     /* @media screen and (max-width: $media-desktop-min) {
                         margin: 0 -70px;
                     } */
@@ -605,7 +606,8 @@
 
         .si-selectClineBox {
             position: absolute;
-            right: 80px;
+            // right: 80px;
+            right: 50px;
             top: 30px;
             padding: 0px 10px;
             @media screen and (max-width: $media-desktop-min) and (min-width : $media-desktop-small-min) {
@@ -646,14 +648,16 @@
             }
         }  
         .si-coverset{
-            position: relative;
+            top: 26px;
+            right: 20px;
+            position: absolute;
             width: 25px;
             height: 25px;
             cursor: pointer;
             min-width: 25px;
         .si-setting {
             position: absolute;
-            top: 26px;
+            // top: 26px;
 
             &:hover {
                 &:after {
@@ -681,6 +685,19 @@
                 font-size: 27px;
             }
         }
+    } 
+    .si-mstatus{
+        position: absolute;
+        right: 26%;
+        top: 61px;
+        padding: 0px 10px;
+        text-align: center;
+        word-break: break-all;
+        width: 15%;
+        font-size: 14px;
+        font-family: $bold_font-family_primary;
+        font-weight:$bold_font-weight;
+        color:$client-primary-color;
     }
     }
 
