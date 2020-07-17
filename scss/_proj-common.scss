@@ -1192,8 +1192,8 @@ body {
 }
 
 //Disabled CSS
-.si-disable {
-    cursor: default !important;
+.si-disable,.si-graysort {
+    cursor: pointer !important;
     pointer-events: none;
     filter: grayscale(90%);
     -webkit-filter: grayscale(90%);

@@ -806,8 +806,8 @@
                 }
             }
 
-            .si-disable,
-            &.si-disable {
+            .si-graysort,
+            &.si-graysort {
                 background: $transparent !important;
                 border-color: $transparent;
                 color: map-get($alert, unavaliabe)
@@ -1867,7 +1867,7 @@
         height: 100%;
         overflow: hidden;
 
-        &.si-disable {
+        &.si-graysort {
             .si-card {
                 &__top {
                     color: $black;

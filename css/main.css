@@ -5310,8 +5310,8 @@ body.si-ar {
   margin-top: 2px;
 }
 
-.si-disable {
-  cursor: default !important;
+.si-disable, .si-graysort {
+  cursor: pointer !important;
   pointer-events: none;
   filter: grayscale(90%);
   -webkit-filter: grayscale(90%);
@@ -7063,7 +7063,7 @@ _:-ms-fullscreen,
 .si-datapopup .si-tbls__cell.si-fileName .si-icon {
   margin-right: 10px;
 }
-.si-datapopup .si-tbls__cell .si-disable, .si-datapopup .si-tbls__cell.si-disable {
+.si-datapopup .si-tbls__cell .si-graysort, .si-datapopup .si-tbls__cell.si-graysort {
   background: transparent !important;
   border-color: transparent;
   color: #3a3a3a;
@@ -7943,7 +7943,7 @@ _:-ms-fullscreen,
   height: 100%;
   overflow: hidden;
 }
-.si-card__box.si-disable .si-card__top {
+.si-card__box.si-graysort .si-card__top {
   color: #000;
 }
 .si-card__top {
